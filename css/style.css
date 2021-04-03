@@ -1,0 +1,631 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    float: left;
+    background-color: #734887;
+    padding: 20px;
+}
+
+.cuda-logo{
+    width: 30%;
+    float: left;   
+}
+
+.cuda-logo a img{
+    height: 60px;
+    width: 60%;
+    padding: 10px;
+}
+
+.menu-bar{
+     width: 70%;
+    float: left;
+}
+
+.menu-bar nav{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.menu-bar nav ul{
+    
+    list-style: none;
+    
+}
+
+.menu-bar nav ul li{
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.menu-bar nav ul li a{
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;  
+}
+
+.dummy-text{
+    width: 100%;
+    float: left;
+    
+}
+
+.dummy-text h3{
+    margin: 0 auto;
+    width: 45%;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: center;
+    padding: 20px;
+}
+
+.dummy-text a{
+    width: 10%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #ea7a4f;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: center; 
+}
+
+.service-sec{
+    width: 100%;
+    float: left;
+    padding: 35px;
+    background-color: #24b297;
+}
+
+.service-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.service-title h2{
+    font-weight: 500;
+    color: #16061b;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.service-title span{
+    display: block;
+    border-bottom: 3px solid #131313;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.service-title p{
+    font-size: 18px;
+}
+
+.service-details{
+    width: 100%;
+    float: left;
+    
+}
+
+.service-details .service-img{
+    width: 24%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 5px;
+    margin-top: 40px;  
+}
+
+.service-img img{
+    margin: 0 auto;
+    width: 50%;
+    height: 140px;  
+}
+
+.service-img h4{
+    padding: 10px 10px;
+    font-size: 25px;  
+}
+
+.service-img p{
+    line-height: 20px;
+    font-size: 16px;  
+}
+
+.team-sec{
+    width: 100%;
+    float: left;
+    padding: 40px;
+    background-color: #a4a5a5;
+}
+
+.team-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+
+
+.team-title h2{
+    font-weight: 500;
+    color: #131313;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.team-title span{
+    display: block;
+    border-bottom: 3px solid #131313;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.team-title p{
+    color: #131313;
+    font-size: 16px;
+}
+
+.team-details{
+    width: 100%;
+    float: left;
+}
+
+.team-details .team-first{
+    width: 24%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+.team-first img{
+    margin: 0 auto;
+    width: 70%;
+    height: 180px;   
+}
+
+.team-first h4{
+    padding: 0 20px;
+    font-size: 25px;   
+}
+
+.team-first a{
+    display: block;
+    font-size: 18px;
+    line-height: 45px; color: #3f3f3f;
+}
+
+.team-first p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #131313;
+}
+
+.team-first ul{
+    list-style: none;
+}
+
+.team-first ul li{
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+.team-first ul li a i{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #656666;
+}
+
+.skill-sec{
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.skill-title{
+    
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.skill-title h2{
+    
+    color: #161616;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.skill-title span{
+    
+    display: block;
+    border-bottom: 2px solid #161616;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.skill-title p{
+    
+    font-size: 18px;
+}
+
+.skill-content{
+    
+    width: 100%;
+    float: left;
+    
+}
+
+.skill-content .first-skill{
+    
+    width: 24%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 5px;
+    margin-top: 40px;
+    
+}
+
+.first-skill img{
+    
+    margin: 0 auto;
+    width: 50%;
+    height: 150px;
+    
+}
+
+.first-skill h4{
+    
+    padding: 25px 15px;
+    font-size: 20px;
+    color: #161616;
+    
+}
+
+.portfolio-sec{
+    width: 100%;
+    float: left;
+    padding: 35px;
+    background-color: #f9cb7a;
+}
+
+.portfolio-title{
+    
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.portfolio-title h2{
+    
+    color: #131313;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.portfolio-title span{
+    
+    display: block;
+    border-bottom: 2px solid #131313;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.portfolio-title p{
+    
+    color: #131313;
+    font-size: 18px;
+}
+
+.portfolio-img{
+    
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.portfolio-img .portfolio-one{
+    
+    width: 50%;
+    float: left;
+}
+
+.portfolio-img .portfolio-two{
+    
+    width: 50%;
+    float: left;
+}
+
+.portfolio-img .portfolio-one h4{
+    
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+.portfolio-img .portfolio-two h4{
+    
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+.about-us-sec{
+    
+    width: 100%;
+    float: left;
+    padding: 25px;
+    background-color: #d74681;
+}
+
+.about-us-title{
+    
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.about-us-title h2{
+    
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.about-us-title span{
+    
+    display: block;
+    border-bottom: 3px solid #161616;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.about-us-title p{
+    
+    color: #131313;
+    font-size: 18px;
+}
+
+.about-us-img{
+    
+    width: 100%;
+    float: left;
+}
+
+.about-us-img .about-img-one{
+    
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+.about-us-img .about-img-two{
+    
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+.png-img{
+    
+    width: 40%;
+    float: left;
+    
+}
+
+.png-img img{
+    
+    width: 60%;
+    padding-left: 30px;
+    height: 140px;
+    
+}
+
+.client-details{
+    
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.client-details p{
+    
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.client-details h5{
+    
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.client-details a{
+    
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.get-in-touch{
+    width: 100%;
+    float: left;
+    padding: 35px;
+    background-color: #3d549a;
+}
+
+.about-us-title{
+    
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-us-title h2{
+    
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.about-us-title span{
+    
+    display: block;
+    border-bottom: 3px solid #ffffff;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.about-us-title p{
+    
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.from{
+    
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.from-one{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.input-one{
+    
+    width: 40%;
+    height: 30px;
+    margin: 25px 15px;
+    float: left;
+    background-color: #1b2d59;
+    color: #ffffff;
+    padding: 5px 10px;
+    
+}
+
+.input-two{
+    
+    width: 40%;
+    height: 30px;
+    float: left;
+    margin: 25px 15px;
+    background-color: #1b2d59;
+    color: #ffffff;
+    padding: 5px 10px;
+    
+}
+
+.from-two{
+    
+    width: 100%;
+    float: left;
+}
+
+.comment-from{
+    
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    
+}
+
+.from-input{
+    
+    width: 90%;
+    height: 100px;
+    margin: 30px 10px;
+    background-color: #1b2d59;
+    color: #ffffff;
+    padding: 5px 10px;
+    
+}
+
+.from-two a{
+    
+    display: block;
+    width: 150px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ed2852;
+    color: #ffffff;
+}
+
+footer{
+    
+    width: 100%;
+    float: left;
+    background-color: #121723;
+    padding: 25px;
+    
+}
+
+footer nav{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+footer nav ul{
+    
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+footer nav ul li{
+    
+    display: inline-block;
+    margin: 10px 25px;
+    padding: 0 30px;
+}
+
+footer nav ul li a{
+    
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+
+
+
